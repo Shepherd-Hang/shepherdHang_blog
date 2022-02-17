@@ -1,4 +1,4 @@
-# shepherdhang_blog
+# shepherdHang_blog
 
 ## Project setup
 ```

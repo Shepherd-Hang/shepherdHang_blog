@@ -3,7 +3,7 @@
     <nav class="navbar">
       <div class="logo-box">
         <a class="logo" target="_blank">
-          <video class="logo-vidio-bg" preload="preload" muted="true" autoplay autobuffer="true" loop="loop" poster>
+          <video class="logo-vidio" preload="preload" muted="true" autoplay autobuffer="true" loop="loop" poster>
             <source type="video/webm" src="https://gamevideo.wmupd.com/dota2media/media/coverlogo180517.webm">
             <source type="video/mp4" src="https://gamevideo.wmupd.com/dota2media/media/coverlogo180517.mp4">
           </video>
@@ -14,16 +14,16 @@
             <router-link to="/">Home</router-link>
         </li>
         <li>
-            <router-link to="">About</router-link>
+            <router-link to="/DOTA2jia">DOTA2+</router-link>
         </li>
         <li>
-            <router-link to="">Speech</router-link>
+            <router-link to="/speech">Speech</router-link>
         </li>
         <li>
-            <router-link to="">Contact</router-link>
+            <router-link to="/contact">Contact</router-link>
         </li>
         <li>
-            <router-link to="">About</router-link>
+            <router-link to="/about">About</router-link>
         </li>
       </ul>
     </nav>
@@ -96,16 +96,18 @@ header {
 }
 
 body {
-   min-width: 1300px;
-   max-width: 1920px;
-   margin: 0 auto;
-   padding: 0;
-   font-size: 12px;
-   font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
-   -ms-text-size-adjust: 100%;
-   -webkit-text-size-adjust: 100%;
-   background-color: #181818 !important;
-   text-size-adjust: 100% !important;
+  background: url('./assets/bodybg.jpg') no-repeat 50% 0;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  background-color: #010101;
+  min-width: 1300px;
+  max-width: 1920px;
+  min-height: 1300px;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 12px;
+  font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
+  text-size-adjust: 100% !important;
 }
 
 </style>
