@@ -31,6 +31,7 @@
   </header>
 
   <router-view />
+  <footer></footer>
 </template>
 
 <script>
@@ -102,12 +103,20 @@ body {
   background-color: #010101;
   min-width: 1300px;
   max-width: 1920px;
-  min-height: 1300px;
   margin: 0 auto;
   padding: 0;
   font-size: 12px;
-  font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
   text-size-adjust: 100% !important;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background: linear-gradient(90deg,rgba(0, 0, 0, 0.8),rgba(0,0,0,.3));;
+  text-align: center;
+  color: #a09696;
 }
 
 </style>
